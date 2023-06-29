@@ -31,7 +31,7 @@
   ];
   
   const candidatos: Candidato[] = [
-    { nombre: "Diputado Eduardo Varela Cid	", partidolegislativo: partidoslegislativos[0] },
+    { nombre: "Diputado Eduardo Varela Cid", partidolegislativo: partidoslegislativos[0] },
     { nombre: "Diputado Julio De Vido", partidolegislativo: partidoslegislativos[0] },
     { nombre: "Diputado Juan Emilio Ameri", partidolegislativo: partidoslegislativos[1] },
     { nombre: "Cobos Julio", partidolegislativo: partidoslegislativos[1] },
