@@ -24,10 +24,10 @@ var Voto = /** @class */ (function () {
     return Voto;
 }());
 var partidoslegislativos = [
-    { nombre: "partido 1" },
-    { nombre: "partido 2" },
-    { nombre: "partido 3" },
-    { nombre: "Partido 4" },
+    { nombre: "Peronismo" },
+    { nombre: "Radicales" },
+    { nombre: "Frentedetodo" },
+    { nombre: "frenteunido" },
 ];
 var candidatos = [
     { nombre: "Diputado Eduardo Varela Cid", partidolegislativo: partidoslegislativos[0] },
@@ -57,4 +57,4 @@ var votante2 = { nombre: "Ticiana", dni: "46620074" };
 var voto1 = realizarVoto(votante1, candidatos[0]);
 var voto2 = realizarVoto(votante2, candidatos[2]);
 console.log("Voto 1:", voto1);
-console.log("Voto 3:", voto2);
+console.log("Voto 2: ", voto2);

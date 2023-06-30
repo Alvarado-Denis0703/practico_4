@@ -24,10 +24,10 @@ class Voto {
 
 
 const partidoslegislativos: partidolegislativo[] = [
-  { nombre: "partido 1" },
-  { nombre: "partido 2" },
-  { nombre: "partido 3" },
-  { nombre: "Partido 4" },
+  { nombre: "Peronismo" },
+  { nombre: "Radicales" },
+  { nombre: "Frentedetodo" },
+  { nombre: "frenteunido" },
 ];
 
 const candidatos: Candidato[] = [
@@ -60,11 +60,12 @@ function realizarVoto(votante: Votantes, candidato: Candidato): Voto {
 
 // Ejemplo de uso
 
-const votante1: Votantes = { nombre: "Denis", dni: "44907469" };
-const votante2: Votantes = { nombre: "Ticiana", dni: "46620074" };
+const votante1: Votantes = {nombre: "Denis" , dni: "44907469"};
+const votante2: Votantes = {nombre: "Ticiana" , dni: "46620074"};
 
-const voto1: Voto = realizarVoto(votante1, candidatos[0]);
+const voto1: Voto = realizarVoto(votante1, candidatos [0]);
 const voto2: Voto = realizarVoto(votante2, candidatos[2]);
 
 console.log("Voto 1:", voto1);
-console.log("Voto 3:", voto2);
+console.log("Voto 2: ", voto2);
+
